@@ -14,6 +14,7 @@ h1 p {
 .border {
   border-style: solid;
   border-color: black;
+  width: 100%;
 }
 
 .white-background {
@@ -23,8 +24,10 @@ h1 p {
 .black-background {
   background-color: black;
   display: cover;
-  height: 400px;
+  height: 350px;
 }
+
+
 
 #bottom h1 p {
   color: white;
@@ -109,10 +112,12 @@ h1 {
 .col-md-3 {
   width: 24.99%;
   float: left;
+  margin-left: -40px;
 }
 
 .col-md-9 {
   margin-top: 15px;
   width: 74.97%;
   float: left;
+  margin-right: -40px;
 }
