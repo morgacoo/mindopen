@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('../fonts/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('../fonts/abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 p {
+  font-family: 'abril_fatfaceregular';
+}
+
+.border {
+  border-style: solid;
+  border-color: black;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.black-background {
+  background-color: black;
+  display: cover;
+}
+
+#bottom h1 p {
+  color: white;
+}
+
+.white-type {
+  color: white;
+}
+
+p {
+  font-size: 30px;
+
+}
+
+h1 {
+  font-size: 120px;
+}
+
+#box-words {
+  font-size: 36px;
+}
+
+#first-line {
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-bottom: -25px;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+}
+
+/*Try to...*/
+#second-line {
+  margin-left: 30px;
+  margin-top: -25px;
+  margin-bottom: -25px;
+}
+
+/*To Possibilities*/
+#third-line {
+  margin-left: 160px;
+  margin-top: -25px;
+  font-weight: bold;
+}
+
+/*&*/
+#fourth-line {
+  margin-left: 30px;
+  margin-top: -25px;
+  margin-bottom: -90px;
+}
+
+#bottom {
+  padding-top: -10px;
+}
+
+ /*"YOUR"*/
+#fifth-line {
+  margin-left: 30px;
+  padding-top: 60px;
+  font-weight: bold;
+  margin-bottom: -25px;
+}
+
+/*Mouth Closed*/
+#sixth-line {
+  margin-left: 30px;
+  margin-top: -25px;
+  margin-bottom: -25px;
+  letter-spacing:-0.02em;
+}
+
+/*On matters...*/
+#box-words {
+  letter-spacing: -0.02em;
+  line-height: 0.9em;
+}
+
+.col-md-3 {
+  width: 24.99%;
+}
+
+.col-md-9 {
+  width: 74.97%;
+}
