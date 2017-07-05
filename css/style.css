@@ -47,6 +47,7 @@ h1 {
   font-size: 36px;
 }
 
+/*Try to...*/
 #first-line {
   margin-top: 60px;
   margin-left: 30px;
@@ -55,16 +56,17 @@ h1 {
   letter-spacing: -0.05em;
 }
 
-/*Try to...*/
+/*Mind Open*/
 #second-line {
   margin-left: 30px;
   margin-top: -25px;
   margin-bottom: -25px;
+  word-spacing: -.08em;
 }
 
 /*To Possibilities*/
 #third-line {
-  margin-left: 160px;
+  margin-left: 150px;
   margin-top: -25px;
   font-weight: bold;
 }
@@ -85,7 +87,7 @@ h1 {
   margin-left: 30px;
   padding-top: 60px;
   font-weight: bold;
-  margin-bottom: -25px;
+  margin-bottom: -15px;
 }
 
 /*Mouth Closed*/
@@ -93,7 +95,9 @@ h1 {
   margin-left: 30px;
   margin-top: -25px;
   margin-bottom: -25px;
+  margin-right: 0px;
   letter-spacing:-0.02em;
+  word-spacing: -0.08em;
 }
 
 /*On matters...*/
@@ -108,6 +112,7 @@ h1 {
 }
 
 .col-md-9 {
+  margin-top: 15px;
   width: 74.97%;
   float: left;
 }
