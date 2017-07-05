@@ -23,6 +23,7 @@ h1 p {
 .black-background {
   background-color: black;
   display: cover;
+  height: 400px;
 }
 
 #bottom h1 p {
@@ -103,8 +104,10 @@ h1 {
 
 .col-md-3 {
   width: 24.99%;
+  float: left;
 }
 
 .col-md-9 {
   width: 74.97%;
+  float: left;
 }
