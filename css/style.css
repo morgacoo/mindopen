@@ -124,7 +124,7 @@ h1 {
 }
 
 
-/*Attempt to get the & to be both black and white
+/*Attempt to get the & to be both black and white*/
 .halfstyle {
   position:relative;
   display: inline-block;
@@ -134,28 +134,26 @@ h1 {
   white-space: pre;
 }
 
-.half-style::before {
+.half-style:before {
   display: block;
   z-index: 2;
   position: absolute;
-  top: 0;
-  height: 50%;
+  top: 252;
+  height: 50%%;
   content: attr(data-content);
   overflow: hidden;
   pointer-events: none;
   color: black;
-  text-shadow: 2px 2px 0px #af0
 }
 
-.half-style::after {
+.half-style:after {
   display: block;
   position: absolute;
-  z-index: 1
-  top: 0;
+  z-index: 1;
+  top: 252;
   height: 100%;
   content: attr(data-content);
   overflow: hidden;
   pointer-events: none;
   color: white;
-  text-shadow: 2px 2px 0px #0af 
-}*/
+}
