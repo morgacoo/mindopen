@@ -43,7 +43,7 @@ p {
 
 }
 
-h1 {
+.large-font {
   font-size: 120px;
 }
 
@@ -121,39 +121,4 @@ h1 {
   width: 74.97%;
   float: left;
   margin-right: -40px;
-}
-
-
-/*Attempt to get the & to be both black and white*/
-.halfstyle {
-  position:relative;
-  display: inline-block;
-  font-size: 120px;
-  color: transparent;
-  overflow: hidden;
-  white-space: pre;
-}
-
-.half-style:before {
-  display: block;
-  z-index: 2;
-  position: absolute;
-  top: 252;
-  height: 50%%;
-  content: attr(data-content);
-  overflow: hidden;
-  pointer-events: none;
-  color: black;
-}
-
-.half-style:after {
-  display: block;
-  position: absolute;
-  z-index: 1;
-  top: 252;
-  height: 100%;
-  content: attr(data-content);
-  overflow: hidden;
-  pointer-events: none;
-  color: white;
 }
